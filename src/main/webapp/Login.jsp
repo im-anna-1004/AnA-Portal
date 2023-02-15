@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Login</title>
+	<link rel="icon" type="image/x-icon" href="images/Logo.ico">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.css">
 	<link rel="stylesheet" href="alert/dist/sweetalert.css">
