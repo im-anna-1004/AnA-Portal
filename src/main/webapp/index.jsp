@@ -120,10 +120,10 @@
             <h4>This site is for ERP management</h4>
             <p>We're open for work and ready to serve our services in relevant fields.</p> 
             <div class="list">
-                <li><a href="#"></a>8290478781</li>
-                <li><a href="#"></a>9549520811</li>
-                <li><a href="#"></a>vijayvergiyaakshay@gmail.com</li>
-                <li><a href="#"></a>shringianand@gmail.com</li>
+                <li><a href="#"></a>xxxxxxxxxx</li>
+                <li><a href="#"></a>xxxxxxxxxx</li>
+                <li><a href="#"></a>vijay@gmail.com</li>
+                <li><a href="#"></a>anand@gmail.com</li>
             </div>
             <div class="contact-icons">
                 <a href="https://www.linkedin.com/in/akshay-vijayvergiya-a19361200/"><i class='bx bxl-linkedin-square' ></i></a>
