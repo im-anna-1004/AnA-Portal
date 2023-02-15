@@ -14,7 +14,7 @@ public class UserDao {
 	static{  
 	try{  
 	Class.forName("com.mysql.cj.jdbc.Driver");  
-	con=DriverManager.getConnection("jdbc:mysql://localhost:3306/test","anand","anand");  
+	con=DriverManager.getConnection("jdbc:Driver","username","password");  
 	
 	}catch(Exception e){
 		System.out.print(e);
