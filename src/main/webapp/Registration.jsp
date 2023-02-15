@@ -5,27 +5,24 @@
 <head>
 <meta charset="UTF-8">
 <title>Register</title>
-	<link rel="icon" type="image/x-icon" href="images/Logo.ico">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.css">
 <link rel="stylesheet" href="alert/dist/sweetalert.css">
 <link rel="stylesheet" href="css/password.css">
+<link rel="icon" type="image/x-icon" href="images/Logo.ico">
 <script src="js/password.js"></script>
 </head>
 <body >
 <input type="hidden" id="status" value="<%= request.getAttribute("status")%>">
-
 	<div class="main">
-
-		
+<input type="hidden" id = "status" value="<%=request.getAttribute("status") %>">	
 		<section class="signup">
 			<div class="container">
 				<div class="signup-content">
 					<div class="signup-form">
 						<h2 class="font" style="font-family: 'Poppins', sans-serif;" >Sign up</h2>
 					
-						<form method="post" action="register" onsubmit="return validateForm()" enctype="multipart/form-data" 
-						class="register-form" name="register-form" id="register-form">
+						<form method="post" action="register" onsubmit="return validateForm()" class="register-form" name="register-form" id="register-form" enctype="multipart/form-data">
 							<div class="form-group">
 								<label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label> <input
 									type="text" name="name" id="name" placeholder="Your Name" style="font-family: 'Poppins', sans-serif;"/>
@@ -38,12 +35,12 @@
 								/>
 							</div>
 							<div class="form-group">
-								<label for="password"><i class="zmdi zmdi-lock"></i></label> <input
-									type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+								<label for="password"><i class="zmdi zmdi-lock"></i></label> 
+								<input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
 								title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
 								placeholder="Password" style="font-family: 'Poppins', sans-serif;"/>
 							</div>
-							<div class="formgroup"id="message">
+							<div class="form-group"id="message">
  								 <h3>Password must contain the following:</h3>
 								  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
 								  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
@@ -56,15 +53,17 @@
 								<input type="number" name="contact" id="contact"
 									placeholder="Contact no" style="font-family: 'Poppins', sans-serif;"/>
 							</div>	
-							<div class="form-group">
-								<label for="role"><i class="zmdi zmdi-lock-outline"></i></label>
-								<input type="text" name="role" id="role" placeholder="Student/Teacher" style="font-family: 'Poppins', sans-serif;"/>
-									
-							</div>	
+
 							<div class="form-group">
 								<label for="image"><i class="zmdi zmdi-lock-outline"></i></label>
-								<input type="file" name="file" id="file" accept=".jpg,.jpeg,.png" style="font-family: 'Poppins', sans-serif;"/>
-									
+								<input type="file" name="image" id="image" style="font-family: 'Poppins', sans-serif;"/>									
+							</div>
+							<div class="form-group">
+								<label for="role" style="margin-top:0px;" ><i class="zmdi zmdi-lock-outline" ></i> Choose a Role:</label>
+							    <select name="role" style="font-family: 'Poppins', sans-serif; border-radius:8px; padding:10px 10px 10px 10px ; margin-top:90px;">
+								  <option value="Teacher" >Teacher</option>
+								  <option value="Student">Student</option>
+								</select>
 							</div>
 							<div class="form-group" style="font-family: 'Poppins', sans-serif;">
 								<input type="checkbox" name="agree-term" id="agree-term"
@@ -80,16 +79,13 @@
 					</div>
 					<div class="signup-image" style="font-family: 'Poppins', sans-serif;">
 						<figure>
-							<img src="images/AnA.png" alt="sign up image">
+							<img src="images/Logo.png" alt="sign up image">
 						</figure>
 						<a href="Login.jsp" class="signup-image-link">I am already member</a>
 					</div>		
 				</div>
-				
 			</div>
 		</section>
-		
-
 	</div>
 	
 	<script src="vendor/jquery/jquery.min.js"></script>

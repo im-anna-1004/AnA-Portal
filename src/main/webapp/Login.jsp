@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Login</title>
-	<link rel="icon" type="image/x-icon" href="images/Logo.ico">
+<link rel="icon" type="image/x-icon" href="images/Logo.ico">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.css">
 	<link rel="stylesheet" href="alert/dist/sweetalert.css">
@@ -20,7 +20,7 @@
 				<div class="signin-content">
 					<div class="signin-image">
 						<figure>
-							<img src="images/AnA.png" alt="sign up image">
+							<img src="images/Logo.png" alt="sign up image">
 						</figure>
 						<a href="Registration.jsp" class="signup-image-link">Create an account</a>
 					</div>
@@ -47,9 +47,7 @@
 								<input type="submit" name="signin" id="signin"
 									class="form-submit" value="Log in" />
 							</div>
-							
-						</form>						
-							
+						</form>	
 						</div>
 					</div>
 				</div>

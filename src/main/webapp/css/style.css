@@ -282,7 +282,7 @@ figure {
 .form-submit {
   display: inline-block;
   background: #6dabe4;
-  color: #fff;
+  color: rgb(12, 17, 36);
   border-bottom: none;
   width: auto;
   padding: 15px 39px;
@@ -604,3 +604,4 @@ label.valid {
 .logo-img{
 	position: fixed;
 }
+

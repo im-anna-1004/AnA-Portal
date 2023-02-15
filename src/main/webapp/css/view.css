@@ -1,7 +1,7 @@
 .tables{
 	margin-top:150px;
 	margin-right:50px;
-	margin-left:230px;
+	margin-left:250px;
 }
 .container {
 	max-width: 3000px;
@@ -20,6 +20,7 @@
 }
 .table td {
 	 padding: 10px 0 10px 30px;
+	 
 }
 .table th{
 	background-color:black;

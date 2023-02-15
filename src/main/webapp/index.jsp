@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-	<link rel="icon" type="image/x-icon" href="images/Logo.ico">
+<link rel="icon" type="image/x-icon" href="images/Logo.ico">
  <link rel="stylesheet" href="css/common.css">
     <!-- <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> -->
@@ -58,14 +58,14 @@
                 <a href="#" class="btn">Say Hello</a>
                 
                 <a href="#" class="btn2">
-                <span><i class='bx bx-play'></i></span>Watch Our Work</a>
+                <i class='bx bx-play'></i>Watch Our Work</a>
             </div>
         </div>
     </section>
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="images/about.png">
+            <img src="images/Logo.png">
         </div>
         <div class="about-text">
             <h2>About<span> Us</span></h2>
@@ -120,10 +120,12 @@
             <h4>This site is for ERP management</h4>
             <p>We're open for work and ready to serve our services in relevant fields.</p> 
             <div class="list">
-                <li><a href="#"></a>xxxxxxxxxx</li>
+            <ul>
+            	<li><a href="#"></a>xxxxxxxxxx</li>
                 <li><a href="#"></a>xxxxxxxxxx</li>
                 <li><a href="#"></a>vijay@gmail.com</li>
-                <li><a href="#"></a>anand@gmail.com</li>
+                <li><a href="#"></a>anand@gmail.com</li></ul>
+                
             </div>
             <div class="contact-icons">
                 <a href="https://www.linkedin.com/in/akshay-vijayvergiya-a19361200/"><i class='bx bxl-linkedin-square' ></i></a>
