@@ -8,6 +8,7 @@
 <head>
 <meta charset="UTF-8">
 <title>View Users</title>
+	<link rel="icon" type="image/x-icon" href="images/Logo.ico">
 <link rel="stylesheet" href="css/view.css">
 <link rel="stylesheet" href="css/common.css">
 </head>
