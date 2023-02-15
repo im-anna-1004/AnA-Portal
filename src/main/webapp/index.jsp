@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-
+	<link rel="icon" type="image/x-icon" href="images/Logo.ico">
  <link rel="stylesheet" href="css/common.css">
     <!-- <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> -->
@@ -65,7 +65,7 @@
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="images/about.jpg">
+            <img src="images/about.png">
         </div>
         <div class="about-text">
             <h2>About<span> Us</span></h2>
